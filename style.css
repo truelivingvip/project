@@ -1,0 +1,357 @@
+body{
+    background: white;
+}
+.toparea{
+    width:100%;
+    text-align:center;
+    background: white;
+}
+.toparea img{
+    width:200px;
+    height:71px;
+    margin: 10px 0px;
+}
+.toparea ul{
+    list-style: none;
+    padding: 0;
+    margin: 32px 0;
+}
+.toparea ul li{
+    float:left;
+}
+.toparea ul li a:link, .toparea ul li a:visited{
+    font-size: 13px;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+}
+
+.book{
+    padding:5px;
+    background: linear-gradient(-30deg, #3B5998 20%, #3B5998 72%, white 20%, white 72%);
+}
+.book a:link, .book a:visited{
+    text-decoration: none;
+    color:black;
+    padding:5px 10px;
+    background:white;
+}
+.book p{
+    margin:30px 0;
+}
+
+.great{
+    width:100%;
+    height: 1000px;
+    background: url('comp.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.great h1{
+    width:550px;
+    height:190px;
+    color:white;
+    margin:320px 0 ;
+    text-align: justify;
+}
+.great p{
+    width:850px;
+    height:120px;
+    color:white;
+    text-align: justify;
+    margin: -350px 0;
+}
+.it{
+    text-align: center;
+    background: url('ring.png') no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+.it img{
+    width:600px;
+    height:500px;
+    margin: 130px 0;
+}
+.it p:nth-of-type(1){
+    color: #3B5998;
+    margin: 200px 0;
+    text-align: left;
+}
+.it h2{
+    width:480px;
+    height:120px;
+    margin:-180px 0;
+    text-align: justify;
+}
+.it p:nth-of-type(2){
+    margin: 180px 0;
+    text-align: justify;
+}
+.buiseness{
+    background: #EDF0F6;
+    text-align: center;
+    padding:0px 50px;
+}
+.service{
+    
+    background:white;
+}
+.read{
+    
+    background:white;
+}
+.buiseness a:link, .buiseness a:visited{
+    text-decoration: none;
+    color:#3B5998;
+    padding:10px 20px;
+    border:solid 1px #3B5998;
+}
+.web{
+    width:100%;
+    height: 900px;
+    background-color:#3B5998;
+    background-image: url('ring.png');
+    background-blend-mode: multiply;
+    text-align: left;
+}
+.web h3{
+    width:450px;
+    color:white;
+    text-align:left;
+    margin:350px 0;
+}
+.web p{
+    width:450px;
+    color:white;
+    margin:-310px 0;
+    text-align: left;
+}
+.web img{
+    width:300px;
+    height:300px;
+    margin:100px 0;
+}
+.blue p:nth-of-type(1){
+    width:400px;
+    height:300px;
+    margin:-350px 90px;
+    color:white;
+    font: normal normal 300 55px/65px Nunito;
+}
+.blue p:nth-of-type(2){
+    width:120px;
+    height:110px;
+    margin:130px 70px;
+    color:white;
+    font: normal normal 300 35px/45px Nunito;
+    text-align: justify;
+}
+.blue img:nth-of-type(2){
+    width:350px;
+    height:350px;
+    margin:-130px 70px;
+}
+.blue p:nth-of-type(3){
+    width:400px;
+    height:300px;
+    margin:-120px 160px;
+    color:white;
+    font: normal normal 300 55px/65px Nunito;
+}
+.blue p:nth-of-type(4){
+    width:120px;
+    height:110px;
+    margin:-230px 170px;
+    color:white;
+    font: normal normal 300 35px/45px Nunito;
+    text-align: justify;
+}
+.blue img:nth-of-type(3){
+    width:280px;
+    height:280px;
+    margin:-257px 270px;
+    text-align: right;
+}
+.blue p:nth-of-type(5){
+    width:400px;
+    height:300px;
+    margin:-100px 70px;
+    color:white;
+    font: normal normal 300 55px/65px Nunito;
+    text-align: right;
+}
+.blue p:nth-of-type(6){
+    width:120px;
+    height:110px;
+    margin:-220px 350px;
+    color:white;
+    font: normal normal 300 35px/45px Nunito;
+    text-align: right;
+}
+.application{
+    /* height:800px; */
+    background:white url('bridge.png') repeat-x bottom;
+    z-index: -1;
+    text-align: center;
+}
+.application p{
+    margin:50px;
+    text-align: left;
+}
+.application h1{
+    width:500px;
+    margin:-30px 50px;
+    text-align: left;
+}
+.ellipse img{
+    width:180px;
+    height:185px;
+    margin:100px 0;
+    border:solid 1px grey;
+}
+.ellipse p{
+    margin:-130px 0px;
+    text-align: center;
+}
+.philips img{
+    width:180px;
+    height:185px;
+    margin:150px 0px;
+    border:solid 1px grey;
+}
+.philips p{
+    margin:-180px 0px;
+    text-align: center;
+}
+/* .bridge img{
+    width:100%;
+    height:180px;
+    text-align: center;
+    margin:250px 0;
+} */
+.customer{
+    width:100%;
+    background: #EDF0F6;
+    text-align: center;
+}
+.test p{
+    margin:50px;
+    text-align: right;
+}
+.test h1{
+    margin:-30px 0;
+    text-align: right;
+}
+.customer .row:nth-of-type(2){
+    height:350px;
+    background: #3B5998;
+    margin:150px 0;
+}
+.customer img{
+    width:530px;
+    height:550px;
+    margin:-130px 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.vip h2{
+    color:white;
+    margin:100px 0;
+}
+.vip p{
+    color:white;
+    margin:-80px 0;
+}
+.github{
+    width:100%;
+    height:300px;
+    text-align: center;
+}
+.github img{
+    width:150px;
+    height:120px;
+    margin:100px 0;
+    padding:20px 0;
+    background:#EDF0F6;
+}
+.petra{
+    width:100%;
+    
+    background:#222222;
+    text-align: center;
+}
+.pet img{
+    width:300px;
+    height:100px;
+    margin:40px -30px;
+}
+.pet p{
+    color:white;
+    text-align: left;
+    margin:-25px 0px;
+}
+.petra h6{
+    width:150px;
+    height:30px;
+    color:white;
+    margin:50px 50px;
+    padding:5px;
+    background:#444444;
+    text-align: center;
+}
+.petra ul{
+    color:white;
+    width:350px;
+    height:220px;
+    
+    margin:-40px 50px;
+    text-align: left;
+}
+.petra ul li a:link, .petra ul li a:visited{
+    text-decoration: none;
+    color:white;
+    padding:30px 0;
+    
+}
+.pet1 h5{
+    
+    color:white;
+    margin:50px 0px; 
+    font-size: 15px;
+    padding:5px;
+    background:#444444; 
+}
+.pet1 p{
+    
+    color:white;
+    margin:-40px 0px;
+}
+.pet2 h4{
+    width:150px;
+    height:30px;
+    color:white;
+    margin:50px 0px; 
+    font-size: 15px;
+    padding:5px;
+    background:#444444; 
+}
+.pet2 p{
+    width:300px;
+    height:100px;
+    margin:-40px 0px;
+    text-align: left;
+}
+.pet2 p a:link, .pet2 p a:visited{
+    color:white;
+    text-decoration: none;
+}
+.copyright{
+    width:100%;
+    height:80px;
+    background:#070707;
+    text-align: center;
+}
+.copyright p{
+    color:white;
+    margin:25px;
+}
