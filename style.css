@@ -189,7 +189,7 @@ body{
     text-align: right;
 }
 .application{
-    /* height:800px; */
+    height:950px;
     background:white url('bridge.png') repeat-x bottom;
     z-index: -1;
     text-align: center;
@@ -354,4 +354,5 @@ body{
 .copyright p{
     color:white;
     margin:25px;
+
 }
