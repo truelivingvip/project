@@ -2,7 +2,6 @@ body{
     background: white;
 }
 .toparea{
-    width:100%;
     text-align:center;
     background: white;
 }
@@ -27,6 +26,7 @@ body{
 }
 
 .book{
+    width:600px;
     padding:5px;
     background: linear-gradient(-30deg, #3B5998 20%, #3B5998 72%, white 20%, white 72%);
 }
@@ -37,29 +37,28 @@ body{
     background:white;
 }
 .book p{
-    margin:30px 0;
+    padding:21px 0;
 }
 
 .great{
-    width:100%;
-    height:800px;
+    padding:300px 0;
     background: url('comp.png') no-repeat;
     background-size: cover;
     text-align: center;
 }
 .great h1{
     width:550px;
-    height:190px;
     color:white;
-    margin:320px 0;
     text-align: justify;
 }
 .great p{
+    width:500px;
     color:white;
     text-align: justify;
-    margin: -350px 0;
+    padding:30px 0;
 }
 .it{
+    padding:100px;
     text-align: center;
     background: url('ring.png') no-repeat;
     background-size: cover;
@@ -68,11 +67,11 @@ body{
 .it img{
     width:600px;
     height:500px;
-    margin: 130px 0;
+    margin:50px -100px;
 }
 .it p:nth-of-type(1){
     color: #3B5998;
-    margin: 200px 0;
+    padding: 200px 0;
     text-align: left;
 }
 .it h2{
@@ -105,41 +104,42 @@ body{
     border:solid 1px #3B5998;
 }
 .web{
-    width:100%;
-    height: 900px;
+    padding:250px;
     background-color:#3B5998;
     background-image: url('ring.png');
     background-blend-mode: multiply;
-    text-align: left;
+    text-align: center;
 }
 .web h3{
-    width:450px;
+    width: 450px;
     color:white;
     text-align:left;
-    margin:350px 0;
+    margin:0px -100px;
 }
 .web p{
     width:450px;
     color:white;
-    margin:-310px 0;
+    margin:0px -100px;
     text-align: left;
+    padding:50px 0;
 }
 .web img{
     width:300px;
     height:300px;
-    margin:100px 0;
+    margin:-200px -250px;
 }
 .blue p:nth-of-type(1){
     width:400px;
-    height:300px;
-    margin:-350px 90px;
+    padding:0px 250px;
+    margin-top: -100px;
     color:white;
     font: normal normal 300 55px/65px Nunito;
+    text-align: center;
 }
 .blue p:nth-of-type(2){
-    width:120px;
-    height:110px;
-    margin:130px 70px;
+    width:650px;
+    /* padding:0 300px; */
+    padding:0 250px;
     color:white;
     font: normal normal 300 35px/45px Nunito;
     text-align: justify;
@@ -147,19 +147,19 @@ body{
 .blue img:nth-of-type(2){
     width:350px;
     height:350px;
-    margin:-130px 70px;
+    margin:-50px 200px;
 }
 .blue p:nth-of-type(3){
     width:400px;
-    height:300px;
-    margin:-120px 160px;
+   
+    margin:-250px 250px;
     color:white;
     font: normal normal 300 55px/65px Nunito;
 }
 .blue p:nth-of-type(4){
     width:120px;
-    height:110px;
-    margin:-230px 170px;
+    
+    margin:-150px 250px;
     color:white;
     font: normal normal 300 35px/45px Nunito;
     text-align: justify;
@@ -167,13 +167,13 @@ body{
 .blue img:nth-of-type(3){
     width:280px;
     height:280px;
-    margin:-257px 270px;
+    margin:-200px 270px;
     text-align: right;
 }
 .blue p:nth-of-type(5){
     width:400px;
     height:300px;
-    margin:-100px 70px;
+    margin:-150px 70px;
     color:white;
     font: normal normal 300 55px/65px Nunito;
     text-align: right;
@@ -187,38 +187,37 @@ body{
     text-align: right;
 }
 .application{
-    height:950px;
+    padding:400px;
     background:white url('bridge.png') repeat-x bottom;
-    z-index: -1;
     text-align: center;
 }
 .application p{
-    margin:50px;
+    /* margin:50px; */
     text-align: left;
 }
 .application h1{
     width:500px;
-    margin:-30px 50px;
+    /* margin:-30px 50px; */
     text-align: left;
 }
 .ellipse img{
     width:180px;
     height:185px;
-    margin:100px 0;
+    /* margin:100px 0; */
     border:solid 1px grey;
 }
 .ellipse p{
-    margin:-130px 0px;
+    /* margin:-130px 0px; */
     text-align: center;
 }
 .philips img{
     width:180px;
     height:185px;
-    margin:150px 0px;
+    /* margin:150px 0px; */
     border:solid 1px grey;
 }
 .philips p{
-    margin:-180px 0px;
+    /* margin:-180px 0px; */
     text-align: center;
 }
 /* .bridge img{
