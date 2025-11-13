@@ -184,37 +184,52 @@ body{
     text-align: right;
 }
 .application{
-    padding:400px;
+    padding-bottom:400px;
     background:white url('bridge.png') repeat-x bottom;
     text-align: center;
 }
 .application p{
-    /* margin:50px;  */
+    padding:50px 0;
     text-align: left;
 }
 .application h1{
-    width:500px;
-    /* margin:-30px 50px; */
+    padding-bottom: 50px;
     text-align: left;
+}
+.ellipse{
+    width:200px;
+    height:220px;
+    border:solid 1px grey;
+    margin-bottom:50px;
+    text-align: center;
 }
 .ellipse img{
     width:180px;
     height:185px;
-    /* margin:100px 0; */
-    border:solid 1px grey;
+    text-align: center;
 }
 .ellipse p{
     /* margin:-130px 0px; */
+    text-align: center;
+    margin-top:-50px;
+    margin-bottom:50px;
+    text-align: center;
+}
+.philips{
+    width:200px;
+    height:220px;
+    border:solid 1px grey;
     text-align: center;
 }
 .philips img{
     width:180px;
     height:185px;
-    /* margin:150px 0px; */
-    border:solid 1px grey;
+    text-align: center;
 }
 .philips p{
     /* margin:-180px 0px; */
+    text-align: center;
+    margin-top:-50px;
     text-align: center;
 }
 /* .bridge img{
@@ -224,37 +239,43 @@ body{
     margin:250px 0;
 } */
 .customer{
-    width:100%;
+    padding:75px 0;
     background: #EDF0F6;
     text-align: center;
 }
 .test p{
-    margin:50px;
+    margin-bottom:50px;
     text-align: right;
 }
 .test h1{
-    margin:-30px 0;
     text-align: right;
+    margin-top:-20px;
+    margin-bottom:120px;
 }
 .customer .row:nth-of-type(2){
     height:350px;
     background: #3B5998;
-    margin:150px 0;
+    text-align: center;
+    /* margin:75px 0; */
 }
 .customer img{
     width:530px;
     height:550px;
-    margin:-130px 0;
+    margin-top:-100px;
     border-radius: 50%;
     object-fit: cover;
 }
 .vip h2{
+    margin: 100px 0;
+    text-align: left;
     color:white;
-    margin:100px 0;
+    /* margin:100px 0; */
 }
 .vip p{
+    margin-top:-80px;
+    text-align: left;
     color:white;
-    margin:-80px 0;
+    /* margin:-80px 0; */
 }
 .github{
     width:100%;
