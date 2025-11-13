@@ -87,21 +87,27 @@ body{
 .buiseness{
     background: #EDF0F6;
     text-align: center;
-    padding:0px 50px;
+    padding:50px;
+}
+.what p{
+    text-align: left;
+}
+.what h1{
+    text-align: left;
+    margin-bottom:50px;
 }
 .service{
-    
     background:white;
-}
-.read{
     
+}
+.read{ 
     background:white;
 }
 .buiseness a:link, .buiseness a:visited{
     text-decoration: none;
     color:#3B5998;
     padding:10px 20px;
-    border:solid 1px #3B5998;
+    /* border:solid 1px #3B5998; */
 }
 .web{
     padding:300px;
@@ -113,75 +119,79 @@ body{
 .web h3{
     width: 400px;
     color:white;
-    text-align:left;
     margin:0px -250px;
+    text-align: left;
 }
 .web p{
     width:400px;
     color:white;
     margin:0px -250px;
-    text-align: left;
     padding:50px 0;
+    text-align: left;
 }
 .blue img{
     width:300px;
     height:300px;
 }
 .blue h3{
-    width:400px;
-    
-    /* margin-top: -100px; */
+    /* width:400px; */
+    margin-top:-250px;
+    margin-left:-50px;
+    text-align: center;
     color:white;
     font: normal normal 300 55px/65px Nunito;
-    text-align: center;
 }
 .blue p{
-    
-    /* padding:0 350px; */
+    width:150px;
+    margin-top:-40px;
+    text-align: center;
+    margin-left:70px;
     color:white;
     font: normal normal 300 35px/45px Nunito;
 }
 .grey img{
     width:350px;
     height:350px;
-    margin:-50px 200px;
+    margin-top:200px;
+    margin-left:-100px;
 }
 .grey h3{
-    width:400px;
-   
-    
+    /* width:400px; */
+    margin-top:-250px;
+    margin-left:-130px;
+    text-align: center;
     color:white;
     font: normal normal 300 55px/65px Nunito;
 }
 .grey p{
-    width:120px;
-    
-    
+    width:100px;
+    margin-top:-30px;
+    margin-left: 10px;
     color:white;
     font: normal normal 300 35px/45px Nunito;
-    text-align: justify;
+    text-align: center;
 }
 .navy img{
     width:280px;
     height:280px;
-    
-    text-align: right;
+    margin-top:80px;
+    margin-left:-150px;
 }
 .navy h3{
-    width:400px;
-    height:300px;
-    
+    /* width:400px; */
+    margin-top:-220px;
+    margin-left:-180px;
+    text-align: center;
     color:white;
     font: normal normal 300 55px/65px Nunito;
-    text-align: right;
 }
 .navy p{
     width:120px;
-    height:110px;
-    
+    margin-top:-40px;
+    margin-left:-50px;
+    text-align: center;
     color:white;
     font: normal normal 300 35px/45px Nunito;
-    text-align: right;
 }
 .application{
     padding-bottom:400px;
@@ -256,7 +266,6 @@ body{
     height:350px;
     background: #3B5998;
     text-align: center;
-    /* margin:75px 0; */
 }
 .customer img{
     width:530px;
@@ -269,47 +278,43 @@ body{
     margin: 100px 0;
     text-align: left;
     color:white;
-    /* margin:100px 0; */
 }
 .vip p{
     margin-top:-80px;
     text-align: left;
     color:white;
-    /* margin:-80px 0; */
 }
 .github{
-    width:100%;
-    height:300px;
+    padding:150px;
     text-align: center;
 }
 .github img{
     width:150px;
     height:120px;
-    margin:100px 0;
-    padding:20px 0;
     background:#EDF0F6;
 }
 .petra{
-    width:100%;
-    
+    padding:100px;
     background:#222222;
     text-align: center;
 }
 .pet img{
     width:300px;
     height:100px;
-    margin:40px -30px;
+    margin-left:-80px;
 }
 .pet p{
     color:white;
-    text-align: left;
-    margin:-25px 0px;
+    text-align: justify;
+    margin-top:50px;
+    margin-left:-80px;
 }
 .petra h6{
     width:150px;
     height:30px;
     color:white;
-    margin:50px 50px;
+    margin-top:50px;
+    /* margin-left:50px; */
     padding:5px;
     background:#444444;
     text-align: center;
@@ -318,8 +323,8 @@ body{
     color:white;
     width:350px;
     height:220px;
-    
-    margin:-40px 50px;
+    /* margin-left:50px; */
+    /* margin:-40px 50px; */
     text-align: left;
 }
 .petra ul li a:link, .petra ul li a:visited{
@@ -331,15 +336,15 @@ body{
 .pet1 h5{
     
     color:white;
-    margin:50px 0px; 
+    /* margin-left:-50px; */
+    margin-top:50px; 
     font-size: 15px;
     padding:5px;
     background:#444444; 
 }
 .pet1 p{
-    
     color:white;
-    margin:-40px 0px;
+    /* margin-left:-50px; */
 }
 .pet2 h4{
     width:150px;
@@ -361,13 +366,12 @@ body{
     text-decoration: none;
 }
 .copyright{
-    width:100%;
-    height:80px;
+    padding:20px;
     background:#070707;
     text-align: center;
 }
 .copyright p{
     color:white;
-    margin:25px;
+    /* margin:25px; */
 
 }
