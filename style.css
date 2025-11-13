@@ -6,7 +6,7 @@ body{
     background: white;
 }
 .toparea img{
-    width:200px;
+    width:250px;
     height:71px;
     margin: 10px 0px;
 }
@@ -26,18 +26,18 @@ body{
 }
 
 .book{
-    width:600px;
+    width:523px;
     padding:5px;
     background: linear-gradient(-30deg, #3B5998 20%, #3B5998 72%, white 20%, white 72%);
 }
 .book a:link, .book a:visited{
     text-decoration: none;
     color:black;
-    padding:5px 10px;
+    padding:5px 15px;
     background:white;
 }
 .book p{
-    padding:21px 0;
+    padding:21px 10px;
 }
 
 .great{
@@ -104,84 +104,81 @@ body{
     border:solid 1px #3B5998;
 }
 .web{
-    padding:250px;
+    padding:300px;
     background-color:#3B5998;
     background-image: url('ring.png');
     background-blend-mode: multiply;
     text-align: center;
 }
 .web h3{
-    width: 450px;
+    width: 400px;
     color:white;
     text-align:left;
-    margin:0px -100px;
+    margin:0px -250px;
 }
 .web p{
-    width:450px;
+    width:400px;
     color:white;
-    margin:0px -100px;
+    margin:0px -250px;
     text-align: left;
     padding:50px 0;
 }
-.web img{
+.blue img{
     width:300px;
     height:300px;
-    margin:-200px -250px;
 }
-.blue p:nth-of-type(1){
+.blue h3{
     width:400px;
-    padding:0px 250px;
-    margin-top: -100px;
+    
+    /* margin-top: -100px; */
     color:white;
     font: normal normal 300 55px/65px Nunito;
     text-align: center;
 }
-.blue p:nth-of-type(2){
-    width:650px;
-    /* padding:0 300px; */
-    padding:0 250px;
+.blue p{
+    
+    /* padding:0 350px; */
     color:white;
     font: normal normal 300 35px/45px Nunito;
-    text-align: justify;
 }
-.blue img:nth-of-type(2){
+.grey img{
     width:350px;
     height:350px;
     margin:-50px 200px;
 }
-.blue p:nth-of-type(3){
+.grey h3{
     width:400px;
    
-    margin:-250px 250px;
+    
     color:white;
     font: normal normal 300 55px/65px Nunito;
 }
-.blue p:nth-of-type(4){
+.grey p{
     width:120px;
     
-    margin:-150px 250px;
+    
     color:white;
     font: normal normal 300 35px/45px Nunito;
     text-align: justify;
 }
-.blue img:nth-of-type(3){
+.navy img{
     width:280px;
     height:280px;
-    margin:-200px 270px;
+    
     text-align: right;
 }
-.blue p:nth-of-type(5){
+.navy h3{
     width:400px;
     height:300px;
-    margin:-150px 70px;
+    
     color:white;
     font: normal normal 300 55px/65px Nunito;
     text-align: right;
 }
-.blue p:nth-of-type(6){
+.navy p{
     width:120px;
     height:110px;
-    margin:-220px 350px;
+    
     color:white;
     font: normal normal 300 35px/45px Nunito;
     text-align: right;
@@ -192,7 +189,7 @@ body{
     text-align: center;
 }
 .application p{
-    /* margin:50px; */
+    /* margin:50px;  */
     text-align: left;
 }
 .application h1{
